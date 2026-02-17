@@ -1,5 +1,5 @@
 # General Aliases
-alias ccat='bat'
+alias cat='bat'
 alias csv='csvtk pretty'
 alias ports='lsof -i -P -n | grep LISTEN'
 
@@ -7,7 +7,7 @@ alias ports='lsof -i -P -n | grep LISTEN'
 alias ocgatewaystatus='openclaw gateway status'
 alias ocgatewaystop='openclaw gateway stop'
 alias oclogs='openclaw logs --follow --local-time'
-alias ocstauts='openclaw status --deep'
+alias ocstatus='openclaw status --deep'
 alias ocunload='launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.openclaw.gateway.plist'
 alias ohealth='openclaw health'
 
