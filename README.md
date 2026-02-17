@@ -38,7 +38,7 @@ Install once → update anytime.
 Run this installer:
 
 ``` bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/oc-disco/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/aldodelgado/oc-disco/main/install.sh | bash
 ```
 
 This will:
