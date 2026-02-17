@@ -9,7 +9,7 @@ alias ocgatewaystop='openclaw gateway stop'
 alias oclogs='openclaw logs --follow --local-time'
 alias ocstatus='openclaw status --deep'
 alias ocunload='launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.openclaw.gateway.plist'
-alias ohealth='openclaw health'
+alias ochealth='openclaw health'
 
 # Git Aliases
 alias git_sync="git checkout master; git fetch upstream; git merge upstream/master; git push origin master;"
