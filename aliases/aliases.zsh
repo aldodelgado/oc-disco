@@ -27,6 +27,7 @@ alias ocnstop='openclaw node stop'
 alias ocntatus='openclaw node status'
 alias ocnunload='launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ai.openclaw.node.plist'
 alias ocstatus='openclaw status --deep'
+alias openclaw='node /Users/clanky/Projects/openclaw/dist/index.js'
 
 # Git Aliases
 alias git_sync="git checkout master; git fetch upstream; git merge upstream/master; git push origin master;"
