@@ -5,12 +5,12 @@ alias ports='lsof -i -P -n | grep LISTEN'
 alias rm='rm -i'
 
 # eza Aliases - ls replacement
-alias l1='eza -1   --icons --group-directories-first'
-alias la='eza -a   --icons --group-directories-first'
-alias lg='eza -lah --icons --git --group-directories-first'
-alias ll='eza -lah --icons --group-directories-first'
-alias ls='eza -lah --icons --group-directories-first -s extension --color-scale=age --color-scale-mode=gradient'
-alias lt='eza -lah --icons --tree --level=2 --group-directories-first'
+alias l1='eza -1 -I ".DS_Store" --icons --group-directories-first'
+alias la='eza -a -I ".DS_Store" --icons --group-directories-first'
+alias lg='eza -lah -I ".DS_Store" --icons --git --group-directories-first'
+alias ll='eza -lah -I ".DS_Store" --icons --group-directories-first'
+alias ls='eza -lah -I ".DS_Store" --icons --group-directories-first -s extension --color-scale=age --color-scale-mode=gradient'
+alias lt='eza -lah -I ".DS_Store" --icons --tree --level=2 --group-directories-first'
 
 # OpenClaw Aliases
 alias occstatus='openclaw channels status --probe'
