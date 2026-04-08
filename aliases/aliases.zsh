@@ -8,7 +8,7 @@ alias rm='rm -i'
 alias l1='eza -1 -I ".DS_Store" --icons --group-directories-first'
 alias la='eza -a -I ".DS_Store" --icons --group-directories-first'
 alias lg='eza -lah -I ".DS_Store" --icons --git --group-directories-first'
-alias ll='eza -lah -I ".DS_Store" --icons --group-directories-first'
+alias ll='eza --ignore-glob=".DS_Store" --icons --group-directories-first -lah'
 alias ls='eza -lah -I ".DS_Store" --icons --group-directories-first -s extension --color-scale=age --color-scale-mode=gradient'
 alias lt='eza -lah -I ".DS_Store" --icons --tree --level=2 --group-directories-first'
 
